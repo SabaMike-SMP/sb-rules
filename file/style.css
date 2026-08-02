@@ -1,0 +1,17 @@
+html{
+    font-size: 27px;
+}
+body{
+    display: block;
+    color:#000000;
+    background-color: #f0f8ff;
+}
+.contentarea {
+    background-color:#c9f5f5;
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+.tac{
+    text-align: center;
+}

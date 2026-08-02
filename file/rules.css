@@ -1,0 +1,56 @@
+.cw-box-ok {
+  position: relative;
+  border: 1px solid #bfe3c4;
+  background: #f0faf1;
+  border-radius: 8px;
+  padding: 16px 20px 16px 52px;
+  color: #333;
+  line-height: 1.8;
+  width: 60%;
+  margin: 0 auto;
+}
+.cw-box-ok::before {
+  content: "✓";
+  position: absolute;
+  top: 18px;
+  left: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #37a845;
+  color: #fff;
+  font-size: 0.79em;
+  font-weight: bold;
+  line-height: 1; 
+}
+
+.cw-box-ng {
+  position: relative;
+  border: 1px solid #f0c0c0;
+  background: #fdf1f1;
+  border-radius: 8px;
+  padding: 16px 20px 16px 52px;
+  color: #333;
+  line-height: 1.8;
+  width: 60%;
+  margin: 0 auto;
+}
+.cw-box-ng::before {
+  content: "×";
+  position: absolute;
+  top: 18px;
+  left: 16px;
+  display: block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #e05353;
+  color: #fff;
+  font-size: 0.79em;
+  font-weight: bold;
+  line-height: 1.1;
+  text-align: center;
+}
